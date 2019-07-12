@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <name>SpringPetclinic1 Config DSL Script</name>
-  <groupId>SpringPetclinic1</groupId>
-  <artifactId>SpringPetclinic1_dsl</artifactId>
+  <name>SpringPetclinic Config DSL Script</name>
+  <groupId>SpringPetclinic</groupId>
+  <artifactId>SpringPetclinic_dsl</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <parent>
