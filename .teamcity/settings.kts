@@ -38,14 +38,14 @@ object Build : BuildType({
         root(DslContext.settingsRoot)
     }
 
-    triggers {
-        vcs {
+    steps {
+        gradle {
+            tasks = "build"
         }
     }
 
-    steps {
-        gradle {
-            tasks = "clean build"
+    triggers {
+        vcs {
         }
     }
 })
