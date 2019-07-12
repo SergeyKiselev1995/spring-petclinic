@@ -41,4 +41,10 @@ object Build : BuildType({
         vcs {
         }
     }
+
+    steps {
+        gradle {
+            tasks = "clean build"
+        }
+    }
 })
